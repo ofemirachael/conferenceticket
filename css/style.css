@@ -288,7 +288,7 @@ input::placeholder {
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 431px) {
     .title {
         font-size: 24px;
         text-align: center;
@@ -322,5 +322,9 @@ input::placeholder {
 
     .nosvg{
         display: none;
+    }
+
+    .mobilepattern{
+        width: 370px;
     }
   }
