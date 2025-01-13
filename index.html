@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title> Conference ticket generator</title>
+
+</head>
+<body class="main">
+
+    <div class="svg-container svg-half-top nosvg">
+      <img src="./assets/images/pattern-circle.svg" />
+    </div>
+    <div class="svg-container">
+      <img src="./assets/images/pattern-lines.svg" />
+    </div>
+
+    <div class="conf-logo">
+      <img src="./assets/images/logo-full.svg" />
+   </div>
+
+    <div class="svg-container svg-right-top">
+      <img src="./assets/images/pattern-squiggly-line-top.svg" class="svgsmall"/>
+    </div>
+
+    <div>
+
+      <h2 class="title">Your Journey to Coding Conf 2025 Starts Here!</h2>
+      <p class="subtitle">Secure your spot at next year's biggest coding conference.</p>
+    </div>
+    <!-- Form starts -->
+    <div class="formsection">
+      <form>
+        <div class="uploads">
+          <p class="form-label"> Upload Avatar</p>
+          <div id="upload-div">
+            <div id="upload-icon">
+              <img src="./assets/images/icon-upload.svg" class="uploadsvg" id="uploadsvg">
+              <img src="" class="hide" id="previewimg">
+              <p class="uploadtext" id="uploadtext">Drag and drop or click to upload</p>
+              <div class="hide" id="divbtn">
+                <button class="imgbtn" id="removeimg">Remove Image</button>   <button class="imgbtn" id="changeimg">Change Image</button>
+              </div>
+            </div>
+            <input type="file" id="upload-file" accept="image/*">
+        </div>
+
+        <p class="instruction"><img src="./assets/images/icon-info.svg"> Upload your photo (JPG or PNG, max size: 500KB)</p>
+        </div>
+       
+        <div class="formfield">
+          <label for="fullname" class="form-label"> Full Name</label>
+          <input type="text" id="fullname" class="forminput">
+        </div>
+
+        <div class="formfield">
+          <label for="emailaddress" class="form-label"> Email Address</label>
+          <input type="email" id="emailaddress" placeholder="example@email.com" class="forminput">
+        </div>
+
+        <div class="formfield">
+          <label for="githubuser" class="form-label"> GitHub Username</label>
+          <input type="text" id="githubuser" placeholder="@yourusername" class="forminput">
+        </div>
+
+        <div class="formfield">
+          
+          <button class="generate" type="submit" id="submitbtn">Generate My Ticket</button>
+        </div>
+      </form>
+    </div>
+ <!-- Form ends -->
+    <div class="svg-container svg-middle">
+      <img src="./assets/images/pattern-circle.svg" />
+    </div>
+
+    <div class="svg-half-bottom">
+      <img src="./assets/images/pattern-squiggly-line-bottom.svg" class="svgsmall"/>
+    </div>
+
+  
+ <script src="./js/script.js"></script>
+</body>
+</html>

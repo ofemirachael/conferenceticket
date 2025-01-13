@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title> Conference ticket generator</title>
+
+</head>
+<body class="main">
+
+    <div class="svg-container svg-half-top">
+      <img src="./assets/images/pattern-circle.svg" />
+    </div>
+    <div class="svg-container">
+      <img src="./assets/images/pattern-lines.svg" />
+    </div>
+
+    <div class="conf-logo">
+      <img src="./assets/images/logo-full.svg" />
+   </div>
+
+    <div class="svg-container svg-right-top">
+      <img src="./assets/images/pattern-squiggly-line-top.svg" />
+    </div>
+    <div class="svg-half-bottom-title">
+      <img src="./assets/images/pattern-squiggly-line-bottom.svg" />
+    </div>
+     <!-- Generated tickets starts -->
+    <div>
+      <h2 class="titleticket">Congrats, <span class="ticketowner" id="fullusername">Jonathan Kristoff!</span> <br> Your ticket is ready.</h2>
+      <p class="subtitleticket"> We've emailed your ticket to  <span class="ticketemail" id="userticketemail">Jonathan@gmail.com</span> and will send updates in the run up to the event.</p>
+    </div>
+
+    <div class="svg-container svg-middle-ticket">
+      <img src="./assets/images/pattern-circle.svg" />
+    </div>
+
+    <div class="ticket">
+      <!-- <img src="./assets/images/pattern-ticket.svg"> -->
+
+      <div class="ticket-heading">
+        <div>
+            <img src="./assets/images/logo-mark.svg">
+           
+        </div>
+        <div>
+          <p class="ticket-title">Coding Conf</p>
+          <p class="ticket-date" id="ticket-date"> Jan 31, 2025 / Austin, TX</p>
+        </div>
+    </div>
+
+    <div class="users-details">
+      <div>
+          <img src="./assets/images/image-avatar.jpg" class="user-image" id="ticketuserimage">
+      </div>
+      <div>
+        <p class="gitname" id="ticketusername">Jonathan Kristoff</p>
+        <div class="gitaccount"><img src="./assets/images/icon-github.svg"> <p id="userticketgit">@jonathankristoff0101</p></div>
+      </div>
+    </div>
+
+    <div class="genid">
+      <p class="gennum">#01609</p>
+    </div>
+    </div>
+ 
+ <script src="./js/script.js"></script>
+</body>
+</html>
